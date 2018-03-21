@@ -19,7 +19,15 @@ public class ArrayLoops {
 		{
 			System.out.println(myArray[i]);
 		}
-
+		
+		String[] names = 
+		{
+			"Al", "Bob", "Charlie", "Dave", "Ernie"
+		};
+		for(int k = 0; k<names.length; k++)
+		{
+			System.out.println(names[k]);	
+		}
 	}
 
 }
