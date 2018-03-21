@@ -14,19 +14,29 @@ public class ArrayLoops {
 		{
 			sum += myArray[j];
 		}
+		
 		Arrays.sort(myArray);
 		for (int i=0; i < myArray.length; i++)
 		{
 			System.out.println(myArray[i]);
 		}
 		
+		System.out.println("**********");
 		String[] names = 
 		{
 			"Al", "Bob", "Charlie", "Dave", "Ernie"
 		};
+		
 		for(int k = 0; k<names.length; k++)
 		{
+			String name = names[k];
 			System.out.println(names[k]);	
+		}
+		
+		System.out.println("----------");
+		for(String name : names)
+		{
+			System.out.println(name);
 		}
 	}
 
