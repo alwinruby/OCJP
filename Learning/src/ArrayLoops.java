@@ -1,19 +1,25 @@
+import java.util.Arrays;
 
-public class Arrays {
+public class ArrayLoops {
 
 	public static void main(String[] args) {
-		
 		int[] myArray = new int[4];
 		myArray[0] = 20;
 		myArray[1] = 30;
 		myArray[2] = 2;
 		myArray[3] = 4;
 		
+		int sum = 0;
+		for(int j = 0; j < myArray.length; j++)
+		{
+			sum += myArray[j];
+		}
+		Arrays.sort(myArray);
 		for (int i=0; i < myArray.length; i++)
 		{
 			System.out.println(myArray[i]);
 		}
-		
+
 	}
 
 }
