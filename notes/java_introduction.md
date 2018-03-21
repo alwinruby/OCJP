@@ -11,4 +11,6 @@ Its *portable, robust*, and *dynamic*, with the ability to fit the needs of virt
 ###### Java guarantees that you'll be able to _Write Once, Run Anywhere_
 
 
-More than *3 billion devices* run Java.  Its usedto develop apps for Google's *Android* OS, various Desktop applications, such as media players, antivirus programs, Web applications (banking, shopping etc).
+More than *3 billion devices* run Java.  Its used to develop apps for Google's *Android* OS, various Desktop applications, such as media players, antivirus programs, Web applications (banking, shopping etc).
+
+Main aim in any programming language not just Java is to not repeat code.
